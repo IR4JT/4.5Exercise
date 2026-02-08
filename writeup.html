@@ -2,41 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Write Up</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+<body class="bg-slate-50 text-slate-800 antialiased">
 
-<body class="bg-gray-100 text-gray-900">
-
-  <!-- Navigation -->
-  <nav class="bg-white shadow mb-10">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex gap-6">
-      <a href="index.html" class="font-semibold">Home</a>
-      <a href="writeup.html" class="text-gray-600 hover:text-black">Write Up</a>
+  <nav class="bg-white shadow-sm mb-12 sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex gap-8 items-center">
+      <a href="index.html" class="text-slate-500 hover:text-blue-600 font-medium transition-colors">
+        &larr; Home
+      </a>
+      <span class="h-4 w-px bg-slate-200"></span> <a href="writeup.html" class="font-bold text-slate-900">
+        Write Up
+      </a>
     </div>
   </nav>
 
-  <main class="max-w-3xl mx-auto px-6">
-    <article class="bg-white rounded-lg shadow p-8">
+  <main class="max-w-3xl mx-auto px-6 pb-20">
+    
+    <header class="mb-10 text-center">
+      <h1 class="text-4xl font-extrabold text-slate-900 mb-4">Write Up</h1>
+      <p class="text-lg text-slate-500">Comparing Generative The Models</p>
+    </header>
 
-      <h1 class="text-2xl font-bold mb-6">AI Tool Evaluation</h1>
-
-      <section class="mb-8">
-        <h2 class="text-lg font-semibold mb-2">ChatGPT 5.2</h2>
-        <p class="text-gray-700 leading-relaxed">
-          TEXT
-        </p>
+    <article class="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-100">
+      
+      <section class="mb-10">
+        <div class="flex items-center gap-3 mb-4">
+            <span class="bg-blue-100 text-blue-800 text-xs font-bold px-2 py-1 rounded uppercase tracking-wide">GPT-5.2</span>
+            <h2 class="text-2xl font-bold text-slate-800">ChatGPT (GPT-5.2)</h2>
+        </div>
+        <div class="prose text-slate-600 leading-relaxed space-y-4">
+          <p>
+            I used ChatGPT 5.2 in my browser to help me and also Gemini when using ChatGPT. When I was stuck I gave it my code and it rewrote it for me. For example, I gave this prompt with code following it, “for my writeup page can you help fix it like the text is not looking good?” it then made a writeup page for me. I did not use the code it gave as I wanted to use Geminis to see how it worked. However, I did use ChatGPT for the index and it did rewrite everything when I asked it for help but I just could not get it to work without it’s doing. I realized that when it takes my code it uses or really tries to keep my wording and style though it completely loses it after a couple rewrites and it messes up. I went back through the code and did some fixing. I believe ChatGPT is really good as a starting tool and maybe a brainstormer though in class we talked about how it has no original ideas so maybe not a good brainstormer not sure.  
+          </p>
+        </div>
       </section>
+
+      <hr class="my-10 border-slate-100">
 
       <section>
-        <h2 class="text-lg font-semibold mb-2">ChatGPT 5.2</h2>
-        <p class="text-gray-700 leading-relaxed">
-          TEXT
-        </p>
+        <div class="flex items-center gap-3 mb-4">
+            <span class="bg-purple-100 text-purple-800 text-xs font-bold px-2 py-1 rounded uppercase tracking-wide">Gemini 3</span>
+            <h2 class="text-2xl font-bold text-slate-800">Gemini Pro 3</h2>
+        </div>
+        <div class="prose text-slate-600 leading-relaxed space-y-4">
+          <p>
+            I also used Gemini 3 Pro for help. I used the same prompts as with ChatGPT I used, “for my writeup page can you help fix it like the text is not looking good?” Gemini is a bit different. It likes to add details, colors, and graphics. Geminis outputs look more UI focused ChatGPT does not do a lot of UI it is more clean and simple. If you look at my index.html code I had Gemini help me but it was so much code it confused me it is the text that is commented out. Interestingly enough Gemini told me to watch a YouTube for help with the API the video was called How to create an aviation app with an aviation data API | aviationstack. And it gave a tutorial on how to use the API keys and code from the video. Honestly, very cool for help and understanding.  
+          </p>
+        </div>
       </section>
-
     </article>
   </main>
-
 </body>
 </html>
