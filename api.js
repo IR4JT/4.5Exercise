@@ -1,4 +1,4 @@
-// const API_KEY = "e05c0908da729885ae5030fb94d8e7aa";
+const API_KEY = "e05c0908da729885ae5030fb94d8e7aa";
 const BASE_URL = "https://api.aviationstack.com/v1";
 
 async function loadFlights() {
